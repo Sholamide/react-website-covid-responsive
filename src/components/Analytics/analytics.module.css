@@ -1,0 +1,46 @@
+.container {
+    margin: 50px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ }
+
+.formControl {
+    width: 30%;
+    background: #fff;
+    margin-bottom: 30px !important;
+    align-self: center; 
+}
+
+ 
+ .card {
+     margin: 0 3% !important;
+     flex-direction: column;
+ }
+ 
+ .infected {
+ border-bottom: 10px solid rgba(0,0,255,0.5);
+ align-items: center;
+
+ }
+ 
+ .recovered {
+     border-bottom: 10px solid rgba(0,255,0,0.5);
+     align-items: center;
+
+ }
+ 
+ .deaths {
+     border-bottom: 10px solid rgba(255,0,0,0.5);
+ }
+ 
+ @media (max-width: 770px){
+     .card {
+         margin: 2% 0 !important;
+     }
+
+     .column1 {
+        margin-bottom: 15px;
+        padding: 0 15px;
+     }
+ }
